@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OffBy1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="date" id="date">
+    <input type="submit" id="b"> <br>
+    <p id="message">Your trip is in <span id="n">0</span> days</p>
+</body> 
+<script>
+    function displayDays(){
+        const currentTime= (new Date()).getTime();
+        n.innerText= currentTime.toString;
+    }
+    b.onclick =displayDays;
+</script>
+</html>
